@@ -1,11 +1,30 @@
 // dependency for inquirer npm package
 var inquirer = require("inquirer");
 
-// constructor function for creating player objects
-function basic flash card(front, back,) {
-  this.front = front;
-  this.back = back;
- 
+// constructor function for creating card objects
+function Basic flashcards front(Keith Moon Played drums for?, who is les claypool? black sabbath's second album is called? Who was the original drummer for rush? ) {
+
+  this.Keith Moon Played drums for? = Keith Moon Played drums for?;
+  this.who is les claypool? = who is les claypool?;
+  this.black sabbath's second album is called? = black sabbath's second album is called?;
+  this.Who was the original drummer for rush? = Who was the original drummer for rush?;
+
+//Basic flashcards back below.
+
+function Basic flashcards back( the who, bass player for primus, paranoid, john rutsey ) {
+
+  this.the who = the who;
+  this.primus = primus;
+  this.paranoid = paranoid;
+  this.john rutsey = john rutsey;
+
+
+
+
+
+
+
+
   // flips a coin: if the the value is equal to 0 then this.offense goes up by one. if the value is equal to 1
   this.goodGame = function() {
     if (Math.floor(Math.random() * 2) === 0) {
